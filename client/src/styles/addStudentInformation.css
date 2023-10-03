@@ -1,0 +1,91 @@
+.add-student-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #edf4f5, #dfe1e2);
+}
+
+.add-student h2 {
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 2px;
+  margin-bottom: 15px;
+  background-color: #0f7d8b;
+}
+
+.add-student form {
+  background-color: #0f7d8b;
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  margin: 0 auto; /* Center the form horizontally */
+  color: #fff;
+  padding: 30px;
+  text-shadow: 0 1px #062a38;
+  top: 0;
+}
+
+.add-student label {
+  font-weight: bold;
+  color: #fff;
+}
+
+.combo input,
+select,
+textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  align-self: stretch; /* Stretch the items to take up the entire width */
+  background-color: #fff;
+  width: calc(50% - 10px); /* Calculate 50% width with margins */
+}
+
+/* Address textarea should have 100% width with some margins */
+.combo textarea {
+  resize: inherit;
+  align-self: center;
+  width: 100%; /* Set the width of textareas to 100% */
+  background-color: #0f7d8b;
+  margin-left: 30px; /* Add left margin */
+  margin-right: 30px; /* Add right margin */
+}
+
+.student-info-item {
+  background-color: #0f7d8b;
+}
+
+.combo {
+  display: flex;
+  flex-direction: row;
+  background-color: #0f7d8b;
+}
+
+.add-student button {
+  padding: 10px 20px;
+  background-color: #134c55;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: center; /* Align the button to the center of the form */
+  font-weight: bold;
+}
+
+.add-student button:hover {
+  background-color: #0f7d8b;
+}
+
+/* Optional: Add some spacing between form elements */
+div > div {
+  margin-bottom: 20px;
+}

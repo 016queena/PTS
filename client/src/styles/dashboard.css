@@ -1,0 +1,205 @@
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.page-header {
+  height: 70px;
+  width: 100%;
+  background-color: #03565e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.page-header h1 {
+  color: #fff;
+  font-size: 32px;
+  text-align: left;
+  margin-left: 18px;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+.logout-button1 {
+  background-color: #05808b;
+  margin-right: 30px; /* Add margin-right */
+  margin-bottom: 10px;
+  padding: 12px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logout-button1:hover {
+  background-color: #02383d;
+}
+
+.main-page {
+  display: flex;
+  flex-grow: 1;
+  background-color: #fff;
+}
+
+strong{
+  background-color: #fff;
+}
+.information {
+  flex-grow: 1;
+  background-color: #fff;
+  margin: 70px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center;
+  color: #02383d;
+  box-shadow: 0 0 10px rgba(22, 96, 109, 0.2);
+  position: relative; /* Added for positioning */
+  text-align: center; /* Center the text horizontally */
+}
+
+.information-logo {
+  background-image: url('../images/admin-logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px #0a5a63;
+  position: absolute;
+  top: 0;
+  left: 10%; /* Horizontally center the logo */
+  transform: translateX(-50%); /* Offset by -50% of its own width */
+}
+
+
+.my-profile-header {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: #fff;
+}
+
+.my-profile-info {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: left;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.my-profile-logo {
+  width: 40%;
+  height: 100%;
+  order: 1; /* Change the order to 2 to move it to the right */
+  background-image: url('../images/admin-logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px #0a5a63;
+}
+
+.my-profile-head {
+  width: 60%;
+  height: 100%;
+  order: 2; /* Change the order to 1 to move it to the left */
+  background-color: #fff;
+}
+
+.my-profile-head p {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+}
+
+.my-profile-info ul{
+  background-color: #fff;
+}
+
+.my-profile-info li {
+  margin: 20px;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 50px;
+  background-color: #fff;
+}
+
+.my-info {
+  margin-top: 80px;
+}
+
+.my-info li {
+  margin-top: 20px;
+}
+
+.navigator {
+  width: 250px;
+  position: sticky;
+  top: 0;
+  background-color: #18484d;
+  z-index: 1;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer; /* Add cursor: pointer here */
+}
+
+.nav-list {
+  list-style: none !important;
+  padding: 0;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  text-align: left;
+  background-color: #18484d;
+  width: 100%;
+  padding: 10px;
+}
+
+
+.nav-list li {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: left;
+  cursor: pointer; /* Add cursor: pointer here */  
+  background-color: #18484d;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;  
+  background-color: #18484d;
+}
+
+.nav-list-two{
+  background-color: #18484d;
+}
+
+.nav-list ul {
+  list-style: none; /* Remove bullets */
+  margin-left: 15px; /* Add some left margin for indentation */
+  font-size: 16px; /* Set the font size smaller than the outer list */
+}
+
+.nav-list ul li {
+  margin-bottom: 5px;
+}
+
+.nav-list ul :hover{
+  text-decoration: underline;
+}

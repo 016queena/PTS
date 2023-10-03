@@ -1,0 +1,106 @@
+.it-department-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.it-department-header {
+  height: 60px;
+  width: 100%;
+  margin: 0; /* Remove top margin */
+  background-color: #0a5a63;
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  justify-content: center;
+  padding: 2%;
+}
+
+.semester-toggle {
+  margin: 0; /* Set margin to zero to remove top margin */
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Add gap between buttons */
+}
+
+.semester-toggle button {
+  padding: 12px 20px;
+  font-size: 24px;
+  background-color: #0C7985;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.semester-button {
+  position: relative;
+  margin: 0 20px; /* Increase the margin to spread them apart */
+  font-weight: bold;
+}
+
+.semester-button button {
+  padding: 10px 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px; /* Reduce the top margin to separate buttons */
+  background-color: #0C7985;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100px;
+}
+
+.dropdown-menu {
+  display: none; /* Initially hide the dropdown lists */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Only show the dropdown when the department button is active */
+.semester-button.active .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+  color: #0C7985;
+  font-size: 12px;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f5f5f5;
+}
+
+/* Additional styling for the "Fall" and "Spring" buttons */
+.semester-toggle button.active {
+  background-color: #02383d;
+}
