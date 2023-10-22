@@ -1,0 +1,219 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.page-header {
+  height: 70px;
+  width: 100%;
+  background-color: #03565e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.page-header h1 {
+  color: #fff;
+  font-size: 32px;
+  text-align: left;
+  margin-left: 18px;
+  justify-content: center;
+  padding-top: 12px;
+  background-color: #03565e;
+}
+
+.logout-button1 {
+  background-color: #05808b;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  padding: 12px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logout-button1:hover {
+  background-color: #02383d;
+}
+
+.main-page {
+  display: flex;
+  flex-grow: 1;
+  background-color: #fff;
+}
+
+strong {
+  background-color: #fff;
+}
+
+.information {
+  flex-grow: 1;
+  background-color: #fff;
+  margin: 70px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #02383d;
+  box-shadow: 0 0 10px rgba(22, 96, 109, 0.2);
+  position: relative;
+  text-align: center;
+}
+
+.information-logo {
+  background-image: url('../images/admin-logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px #0a5a63;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  transform: translateX(-50%);
+}
+
+.my-profile-header {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: #fff;
+}
+
+.my-profile-info {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.my-profile-logo {
+  width: 40%;
+  height: 100%;
+  order: 1;
+  background-image: url('../images/admin-logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px #0a5a63;
+}
+
+.my-profile-head {
+  width: 60%;
+  height: 100%;
+  order: 2;
+  background-color: #fff;
+}
+
+.my-profile-head p {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+}
+
+.my-profile-info ul {
+  background-color: #fff;
+}
+
+.my-profile-info li {
+  margin: 20px;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 50px;
+  background-color: #fff;
+}
+
+.my-info {
+  margin-top: 80px;
+}
+
+.my-info li {
+  margin-top: 20px;
+}
+
+.navigator {
+  width: 250px;
+  position: sticky;
+  top: 0;
+  background-color: #0a5a63;
+  z-index: 1;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav-list {
+  padding: 0;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  background-color: #0a5a63;
+  color: #fff;
+  list-style: none !important;
+}
+
+.nav-list li {
+  margin: 20px 0; /* Add margin to top and bottom */
+  text-align: left;
+  cursor: pointer;
+  text-decoration: underline; /* Add underline text decoration */
+  background-color: transparent !important; /* Remove background color */
+  padding-left: 5px; /* Add padding to the left */
+  padding-right: 5px; /* Add padding to the right */
+  text-underline-offset: 4px;  
+  text-decoration-color: #cfcfcf;
+  color: #fff !important;
+}
+
+/* Sublist styles */
+.sublist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 12px;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%; /* Set sublist width to 100% */
+  color: #fff !important;
+}
+
+/* Add this CSS to make sublist items' color white */
+.sublist li {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: #cfcfcf;
+  color: #fff !important;
+}
+
+/* Add this CSS to prevent links from turning blue */
+.sublist a {
+  color: #fff !important;
+  text-decoration: none !important; /* Remove underline */
+}
+
+.sublist-nav a{
+  color: #fff !important;
+}

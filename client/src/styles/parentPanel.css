@@ -1,0 +1,336 @@
+body{
+  overflow-x: hidden;
+}
+
+.view-page{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.view-page-header{
+  height: 70px;
+  width: 100%;
+  background-color: #03565e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.view-page-header h1{
+  color: #fff;
+  font-size: 32px;
+  text-align: left;
+  margin-left: 18px;
+  justify-content: center;
+  padding-top: 12px;
+  background-color: #03565e;
+}
+
+.settings-dropdown {
+  position: relative;
+}
+
+.settings-dropdown > svg {
+  cursor: pointer;
+}
+
+.logout-btn {
+  background-color: #05808b;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 12px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logout-btn:hover {
+  background-color: #02383d;
+}
+
+.view-page-content{
+  display: flex;
+  flex-grow: 1;
+  background-color: #fff;
+  width: 100%;
+}
+
+.parent-profile{
+  flex-grow: 1;
+  background-color: #fff;
+  margin: 70px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #02383d;
+  box-shadow: 0 0 10px rgba(22, 96, 109, 0.2);
+  position: relative;
+  text-align: center;
+}
+
+.view-profile-head{
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: #fff;
+}
+
+.view-logo{
+  width: 40%;
+  height: 100%;
+  background-image: url('../images/admin-logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px #0a5a63;
+  left: 0;
+}
+
+.parent-profile-header{
+  width: 60%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.parent-profile-header p{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+}
+
+.view-profile-info {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.view-logo{
+  width: 40%;
+  height: 100%;
+  order: 1;
+  background-image: url('../images/admin-logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px #0a5a63;
+}
+
+.parent-profile-header{
+  width: 60%;
+  height: 100%;
+  order: 2;
+  background-color: #fff;
+}
+
+.parent-profile-header  h2{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+  margin-top: 40px;
+}
+
+.view-profile-info  ul {
+    background-color: #fff;
+}
+
+.view-profile-info li {
+  margin: 20px;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 50px;
+  background-color: #fff;
+}
+
+.parent-view-navigation{
+  width: 250px;
+  position: sticky;
+  top: 0;
+  background-color: #0a5a63;
+  z-index: 1;
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.parent-view-navigation li{
+  margin-top: 10px;
+}
+
+.parent-view-navigation li:hover{
+  color: #09a9b8;
+}
+
+.view-profile{
+  background-color: #fff;
+  width: 500px;
+}
+
+.marks {
+  flex-grow: 1;
+  padding: 5px;
+  justify-content: center;
+  margin: 5% 10%;
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(7, 151, 156, 0.2);
+}
+
+.marks h2 {
+  color: #0a5a63;
+  font-size: 26px;
+  margin: 5px 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.leave-form{
+  color: #0C7985;
+  font-size: 14px;
+}
+
+textarea{
+  max-width: 650px;
+  border: 1px solid #0b727e;
+  margin-bottom: 10px;
+  color: #056770;
+  font-size: 14px;
+
+}
+
+.course-dropdown li{
+  font-size: 12px;
+  text-align: center;
+  }
+
+/* Added CSS for marks and remarks sections */
+.marks {
+  flex-grow: 1;
+  padding: 5px;
+  justify-content: center;
+  margin: 5% 10%;
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(7, 151, 156, 0.2);
+}
+
+.marks h2 {
+  color: #0a5a63;
+  font-size: 26px;
+  margin: 5px 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Rest of the CSS remains the same */
+
+/* Added CSS for the table in the marks section */
+.marks table {
+width: 100%;
+border-collapse: collapse;
+border: 1px solid #0a5a63;
+margin-top: 10px;
+}
+
+.marks th,
+.marks td {
+border: 1px solid #0a5a63;
+padding: 8px;
+text-align: center;
+color: #064a50;
+}
+
+.marks th {
+background-color: #0c7985;
+color: #fff;
+}
+
+/* Rest of the CSS remains the same */
+
+
+.remarks {
+  flex-grow: 1;
+  padding: 5px;
+  justify-content: center;
+  margin: 5% 10%;
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(7, 151, 156, 0.2);
+}
+
+.remarks h2 {
+  color: #0a5a63;
+  font-size: 26px;
+  margin: 5px 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.remarks p {
+  color: #0a5a63;
+  font-size: 20px;
+  margin: 5px 10px;
+  padding: 10px 20px;
+}
+
+/* Rest of the CSS remains the same */
+
+.leave-form {
+flex-grow: 1;
+padding: 5px;
+justify-content: center;
+margin: 5% 10%;
+box-sizing: border-box;
+box-shadow: 0 4px 4px rgba(7, 151, 156, 0.2);
+}
+
+.leave-form h2 {
+color: #0a5a63;
+font-size: 26px;
+margin: 5px 10px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+.leave-form textarea {
+width: 100%;
+height: 100px;
+padding: 10px;
+margin: 10px 0;
+resize: vertical;
+}
+
+.leave-form button {
+background-color: #207079;
+color: white;
+border: none;
+padding: 8px 16px;
+font-size: 16px;
+cursor: pointer;
+}
+
+.leave-form button:hover {
+background-color: #0e5257;
+}
+
+.leave-from button{
+margin: 0 auto;
+}
+

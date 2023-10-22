@@ -1,0 +1,54 @@
+/* DepartmentTimetable.css */
+
+.department-timetable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+  }
+  
+  .class-timetable {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #0b646e;
+    color: #0b646e;
+  }
+  
+  .class-timetable h2 {
+    background-color: #fff;
+    color: #0b646e;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #0b5563;
+    background-color: #fff;
+  }
+  
+  table th {
+    background-color: #0b5563;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  table td {
+    font-weight: normal;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  

@@ -1,0 +1,98 @@
+.teacher-info-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #1097a7, #062a38);
+}
+
+.teacher-info {
+  width: 80%; /* Adjust the width of the form container */
+  max-width: 600px; /* Add a maximum width for larger screens */
+  padding: 20px; /* Add padding to create margin on the sides */
+  background: none;
+}
+
+.teacher-info h2 {
+  margin-bottom: 10px;
+  color: #0f7d8b;
+  text-align: center;
+  font-size: 34px;
+  margin-top: 2px;
+  margin-bottom: 15px;
+}
+
+.faculty-form-item {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.teacher-info form {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 90%; /* Set the width of the form to 100% of its container */
+  margin-top: 40px;
+  color: #0f7d8b;
+  padding: 30px;
+  text-shadow: 0 1px #062a38;
+}
+
+.faculty-form label {
+  font-weight: bold;
+  color: #0f7d8b;
+  background-color: #fff;
+}
+
+.faculty-form input,
+select,
+textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  color: #0f7d8b;
+  background-color: #fff;
+}
+
+/* Center all textareas except address */
+.faculty-form textarea {
+  resize: inherit;
+  align-self: center;
+  width: 80%; /* Set the width of textareas to 80% */
+  color: #0f7d8b;
+  background-color: #fff;
+}
+
+.faculty-form {
+  display: flex;
+  flex-direction: row;
+  color: #0f7d8b;
+  background-color: #fff;
+}
+
+.faculty-form button {
+  padding: 10px 20px;
+  background-color: #134c55;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: center;
+  width: fit-content;
+  font-weight: bold;
+}
+
+.faculty-form button:hover {
+  background-color: #0f7d8b;
+}
+
+/* Optional: Add some spacing between form elements */
+div > div {
+  margin-bottom: 20px;
+}

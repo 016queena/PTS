@@ -1,0 +1,119 @@
+.outline-page{
+    background: linear-gradient(to bottom right, #0C7985, #062a38);
+  }
+  
+  .course-outline {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+  }
+
+.header-info{
+  text-align: left;
+  padding: 10px;
+}
+  
+  .course-outline h2 {
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .course-outline table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #0C7985;
+  }
+  
+  th {
+    background-color: #0C7985;
+    color: #fff;
+  }
+  
+  tr {
+    color: #14526b;
+  }
+  
+  td {
+    padding: 6px;
+  }
+  
+  .completion-percentage {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #0d5a63;
+    font-size: 26px;
+    background-color: #fff;
+  }
+  
+  /* Modify table body background color */
+
+.course-outline td {
+  padding: 10px;
+  border: 1px solid #0C7985;
+  background-color: #fff; /* Add this line to set background color to white */
+}
+
+.course-outline th{
+  padding: 10px;
+  border: 1px solid #022225;
+  background-color: #0C7985; 
+}
+
+.course-outline label{
+  background-color: #fff;
+}
+
+.completion-percentage span{
+  background-color: #fff;
+}
+
+  .completion-percentage span:first-child {
+    margin-right: 10px;    
+    background-color: #fff;
+  }
+  
+  /* Responsive Adjustments */
+  @media only screen and (max-width: 600px) {
+    .course-outline {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .course-outline table {
+      font-size: 14px;
+    }
+  
+    th,
+    td {
+      padding: 8px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .course-outline {
+      padding: 5px;
+    }
+  
+    .course-outline table {
+      font-size: 12px;
+    }
+  
+    th,
+    td {
+      padding: 6px;
+    }
+  }
+  

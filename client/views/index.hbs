@@ -1,0 +1,25 @@
+import React from 'react';
+import './login.css'; // CSS file for styling
+import download from './download.png';
+
+const LoginPage = () => {
+  return (
+    <div className="login-page">
+      <header className="header">
+        <div className="logo-container"></div>
+        <h1>Govt. Graduate College Jhelum</h1>
+      </header>
+
+      <div className="login-form">
+        <h2>Login</h2>
+        <form>
+          <input type="text" placeholder="Username" />
+          <input type="password" placeholder="Password" />
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  );
+};
+
+export default LoginPage;
